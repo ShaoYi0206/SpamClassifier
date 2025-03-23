@@ -1,0 +1,65 @@
+Dataset,Method,Best Score,Best Parameter,Best Estimator
+Spam_email_Dataset.csv,MultinomialNB,0.9764269221793868,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+Spam_email_Dataset.csv,MultinomialNB,0.9764078559674625,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+Spam_email_Dataset.csv,MultinomialNB,0.9708738074869485,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+Spam_email_Dataset.csv,MultinomialNB,0.972307169554876,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+Spam_email_Dataset.csv,MultinomialNB,0.9708970762031539,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+Spam_email_Dataset.csv,SVC,0.9821144902103685,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=1, kernel='linear', random_state=42)"
+Spam_email_Dataset.csv,SVC,0.9816168856044669,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+Spam_email_Dataset.csv,SVC,0.9838730574287826,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+Spam_email_Dataset.csv,SVC,0.9825662808346621,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=1, kernel='linear', random_state=42)"
+Spam_email_Dataset.csv,SVC,0.9835233601636482,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=1, kernel='linear', random_state=42)"
+Spam_email_Dataset.csv,RandomForestClassifier,0.9512586652123047,"{'max_depth': None, 'n_estimators': 100, 'random_state': 42}",RandomForestClassifier(random_state=42)
+Spam_email_Dataset.csv,RandomForestClassifier,0.944402825894054,"{'max_depth': None, 'n_estimators': 150, 'random_state': 42}","RandomForestClassifier(n_estimators=150, random_state=42)"
+Spam_email_Dataset.csv,RandomForestClassifier,0.944877074795375,"{'max_depth': None, 'n_estimators': 150, 'random_state': 42}","RandomForestClassifier(n_estimators=150, random_state=42)"
+Spam_email_Dataset.csv,RandomForestClassifier,0.9416064291129651,"{'max_depth': None, 'n_estimators': 150, 'random_state': 42}","RandomForestClassifier(n_estimators=150, random_state=42)"
+Spam_email_Dataset.csv,RandomForestClassifier,0.9478355669462569,"{'max_depth': None, 'n_estimators': 150, 'random_state': 42}","RandomForestClassifier(n_estimators=150, random_state=42)"
+Spam_email_Dataset.csv,KNeighborsClassifier,0.9589819009563539,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+Spam_email_Dataset.csv,KNeighborsClassifier,0.9563137059238024,"{'leaf_size': 30, 'n_neighbors': 10, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=10, weights='distance')"
+Spam_email_Dataset.csv,KNeighborsClassifier,0.9567380882943841,"{'leaf_size': 30, 'n_neighbors': 10, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=10, weights='distance')"
+Spam_email_Dataset.csv,KNeighborsClassifier,0.9526140245470482,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+Spam_email_Dataset.csv,KNeighborsClassifier,0.9554630655682905,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+Spam_email_Dataset.csv,DecisionTreeClassifier,0.9062504547538485,"{'criterion': 'log_loss', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}","DecisionTreeClassifier(criterion='log_loss', min_samples_split=10,
+                       splitter='random')"
+Spam_email_Dataset.csv,DecisionTreeClassifier,0.9157896859218816,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'random'}","DecisionTreeClassifier(criterion='entropy', splitter='random')"
+Spam_email_Dataset.csv,DecisionTreeClassifier,0.9103265178884159,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'random'}","DecisionTreeClassifier(criterion='entropy', splitter='random')"
+Spam_email_Dataset.csv,DecisionTreeClassifier,0.9067830100328322,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10, 'splitter': 'random'}","DecisionTreeClassifier(criterion='entropy', min_samples_leaf=2,
+                       min_samples_split=10, splitter='random')"
+Spam_email_Dataset.csv,DecisionTreeClassifier,0.9135491602937712,"{'criterion': 'log_loss', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'}",DecisionTreeClassifier(criterion='log_loss')
+Spam_email_Dataset.csv,MLPClassifier,0.9772144286630678,"{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (50,), 'learning_rate': 'constant', 'max_iter': 500, 'random_state': 42, 'solver': 'adam', 'warm_start': True}","MLPClassifier(alpha=0.001, hidden_layer_sizes=(50,), max_iter=500,
+              random_state=42, warm_start=True)"
+Spam_email_Dataset.csv,MLPClassifier,0.9788666295677982,"{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (50,), 'learning_rate': 'constant', 'max_iter': 500, 'random_state': 42, 'solver': 'adam', 'warm_start': True}","MLPClassifier(alpha=0.001, hidden_layer_sizes=(50,), max_iter=500,
+              random_state=42, warm_start=True)"
+Spam_email_Dataset.csv,MLPClassifier,0.9761189886091072,"{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'max_iter': 500, 'random_state': 42, 'solver': 'adam', 'warm_start': True}","MLPClassifier(alpha=0.001, max_iter=500, random_state=42, warm_start=True)"
+SMS_Spam.csv,MultinomialNB,0.904339431410347,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+SMS_Spam.csv,MultinomialNB,0.9060249310812761,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+SMS_Spam.csv,MultinomialNB,0.9023524311207316,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+SMS_Spam.csv,MultinomialNB,0.9086770848828627,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+SMS_Spam.csv,MultinomialNB,0.9013629127117474,{'alpha': 0.1},MultinomialNB(alpha=0.1)
+SMS_Spam.csv,SVC,0.908166069969722,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+SMS_Spam.csv,SVC,0.9107154824576369,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+SMS_Spam.csv,SVC,0.9061879804549384,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+SMS_Spam.csv,SVC,0.9208679651038378,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+SMS_Spam.csv,SVC,0.914169254764626,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear', 'random_state': 42}","SVC(C=10, kernel='linear', random_state=42)"
+SMS_Spam.csv,RandomForestClassifier,0.8841842827513104,"{'max_depth': None, 'n_estimators': 100, 'random_state': 42}",RandomForestClassifier(random_state=42)
+SMS_Spam.csv,RandomForestClassifier,0.8899086938100226,"{'max_depth': None, 'n_estimators': 100, 'random_state': 42}",RandomForestClassifier(random_state=42)
+SMS_Spam.csv,RandomForestClassifier,0.8738202046515774,"{'max_depth': None, 'n_estimators': 100, 'random_state': 42}",RandomForestClassifier(random_state=42)
+SMS_Spam.csv,RandomForestClassifier,0.8896029272460655,"{'max_depth': None, 'n_estimators': 150, 'random_state': 42}","RandomForestClassifier(n_estimators=150, random_state=42)"
+SMS_Spam.csv,RandomForestClassifier,0.8873314818118267,"{'max_depth': None, 'n_estimators': 100, 'random_state': 42}",RandomForestClassifier(random_state=42)
+SMS_Spam.csv,KNeighborsClassifier,0.7127647936713389,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+SMS_Spam.csv,KNeighborsClassifier,0.7774437392963964,"{'leaf_size': 30, 'n_neighbors': 10, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=10, weights='distance')"
+SMS_Spam.csv,KNeighborsClassifier,0.6623769939691899,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+SMS_Spam.csv,KNeighborsClassifier,0.6982007956201505,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+SMS_Spam.csv,KNeighborsClassifier,0.6670201226022288,"{'leaf_size': 30, 'n_neighbors': 3, 'weights': 'distance'}","KNeighborsClassifier(n_neighbors=3, weights='distance')"
+SMS_Spam.csv,DecisionTreeClassifier,0.8523243269239519,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}","DecisionTreeClassifier(min_samples_split=10, splitter='random')"
+SMS_Spam.csv,DecisionTreeClassifier,0.8602749907097733,"{'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'splitter': 'random'}","DecisionTreeClassifier(min_samples_split=5, splitter='random')"
+SMS_Spam.csv,DecisionTreeClassifier,0.8570907279347963,"{'criterion': 'log_loss', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5, 'splitter': 'random'}","DecisionTreeClassifier(criterion='log_loss', max_depth=20, min_samples_split=5,
+                       splitter='random')"
+SMS_Spam.csv,DecisionTreeClassifier,0.8483745939126754,"{'criterion': 'log_loss', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}","DecisionTreeClassifier(criterion='log_loss', min_samples_split=10,
+                       splitter='random')"
+SMS_Spam.csv,DecisionTreeClassifier,0.855740013379392,"{'criterion': 'log_loss', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'splitter': 'random'}","DecisionTreeClassifier(criterion='log_loss', min_samples_split=5,
+                       splitter='random')"
+SMS_Spam.csv,MLPClassifier,0.9137048575054806,"{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50,), 'learning_rate': 'constant', 'max_iter': 500, 'random_state': 42, 'solver': 'adam', 'warm_start': True}","MLPClassifier(hidden_layer_sizes=(50,), max_iter=500, random_state=42,
+              warm_start=True)"
+SMS_Spam.csv,MLPClassifier,0.8935536227305624,"{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'max_iter': 500, 'random_state': 42, 'solver': 'adam', 'warm_start': True}","MLPClassifier(max_iter=500, random_state=42, warm_start=True)"
+SMS_Spam.csv,MLPClassifier,0.9141025089518949,"{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'max_iter': 500, 'random_state': 42, 'solver': 'adam', 'warm_start': True}","MLPClassifier(max_iter=500, random_state=42, warm_start=True)"
